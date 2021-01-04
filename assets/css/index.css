@@ -313,6 +313,18 @@ section {
   height: 202.74px;
 }
 
+.produk .fiber-boat ul li:nth-child(1)::before {
+  content: "";
+  background-image: url("../images/circle-ok.svg");
+  background-size: contain;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  position: relative;
+  top: 0.1rem;
+  margin-right: 0.2rem;
+}
+
 .produk .fiber-pool img#fiber-pool-img {
   width: 560px;
   height: 408px;
