@@ -57,6 +57,17 @@ p {
   line-height: 2rem;
 }
 
+h4 {
+  font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 33px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+color: #BB4613;
+}
+
 h3 {
   font-style: normal;
   font-weight: bold;
@@ -335,6 +346,7 @@ section {
 
 /*Product Start*/
 .produk {
+  margin-top: 5vw;
   h5 {
     color: $second-color !important;
   }
@@ -441,10 +453,6 @@ section {
   }
 }
 
-/*Product End*/
-
-// ak peen media query screen 300px - 1199px carane pye ? nulise pye
-
 @media (min-width:300px )and( max-width: 1199px) {
   .fiber-duck {
     margin-top: 40em !important;
@@ -453,3 +461,7 @@ section {
     margin-top: 20em !important;
   }
 }
+
+/*Product End*/
+
+

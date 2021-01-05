@@ -49,6 +49,16 @@ p {
   line-height: 2rem;
 }
 
+h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  /* identical to box height */
+  letter-spacing: 0.05em;
+  color: #BB4613;
+}
+
 h3 {
   font-style: normal;
   font-weight: bold;
@@ -318,6 +328,10 @@ section {
 
 /* Keunggulan End*/
 /*Product Start*/
+.produk {
+  margin-top: 5vw;
+}
+
 .produk h5 {
   color: #c24914 !important;
 }
@@ -439,7 +453,6 @@ section {
   padding-right: 1rem;
 }
 
-/*Product End*/
 @media (min-width: 300px) and (max-width: 1199px) {
   .fiber-duck {
     margin-top: 40em !important;
@@ -448,4 +461,6 @@ section {
     margin-top: 20em !important;
   }
 }
+
+/*Product End*/
 /*# sourceMappingURL=index.css.map */
