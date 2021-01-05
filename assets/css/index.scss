@@ -51,9 +51,24 @@ h5 {
 }
 
 p {
-  font-size: 16px;
+  font-size: 1.2em;
   font-weight: 400;
   color: #c24914;
+  line-height: 2rem;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 54px;
+  /* identical to box height */
+
+  letter-spacing: 0.05em;
+}
+
+li {
+  font-size: 1.2em;
 }
 
 #header {
@@ -251,7 +266,7 @@ p {
 
 #hero:before {
   content: "";
-  position: absolute;
+  position: re;
   bottom: 0;
   top: 0;
   left: 0;
@@ -312,6 +327,26 @@ section {
 
 /*Product Start*/
 .produk {
+  h5 {
+    color: $second-color !important;
+  }
+  .btn-hubungi {
+    background: #fc8621;
+    box-shadow: inset 0px 4px 4px rgba(255, 0, 0, 0.25);
+    border-radius: 5px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
   .fiber-boat {
     margin-top: 6vw;
     background-image: url("../images/bg-1.svg");
@@ -319,28 +354,10 @@ section {
     background-repeat: no-repeat;
     background-size: fixed;
     width: 100%;
+    height: 601.66px;
     .isi {
-      margin-top: 10vh;
+      margin-top: 8vh;
     }
-
-    .btn-hubungi {
-      background: #fc8621;
-      box-shadow: inset 0px 4px 4px rgba(255, 0, 0, 0.25);
-      border-radius: 5px;
-
-      font-style: normal;
-      font-weight: bold;
-      font-size: 18px;
-      line-height: 27px;
-      /* identical to box height */
-
-      text-align: center;
-      letter-spacing: 0.03em;
-      text-transform: uppercase;
-
-      color: #ffffff;
-    }
-
     img#boat-img {
       width: 580px;
       height: 202.74px;
@@ -356,16 +373,60 @@ section {
       }
     }
   }
+
   .fiber-pool {
+    margin-top: 8vw;
+    background-image: url("../images/bg-2.svg");
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: fixed;
+    width: 100%;
+    height: 479.71px;
+    .isi {
+      margin-top: 8vh;
+    }
     img#fiber-pool-img {
       width: 560px;
       height: 408px;
     }
+    ul {
+      padding-left: 0.3rem;
+      li {
+        margin-top: 0.5rem;
+        list-style: none;
+        img {
+          padding-right: 1rem;
+        }
+      }
+    }
   }
+
   .fiber-duck {
+    margin-top: 15vw;
+    background-image: url("../images/bg-3.svg");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: fixed;
+
+    width: 100%;
+    height: 646.11px;
+    left: -75px;
+    .isi {
+      margin-top: 8vh;
+    }
     img#fiber-duck-img {
       width: 572.04px;
       height: 475.48px;
+    }
+    ul {
+      padding-left: 0.3rem;
+      li {
+        margin-top: 0.5rem;
+        list-style: none;
+        img {
+          padding-right: 1rem;
+        }
+      }
     }
   }
 }

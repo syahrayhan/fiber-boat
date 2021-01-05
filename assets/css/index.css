@@ -43,9 +43,23 @@ h5 {
 }
 
 p {
-  font-size: 16px;
+  font-size: 1.2em;
   font-weight: 400;
   color: #c24914;
+  line-height: 2rem;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 54px;
+  /* identical to box height */
+  letter-spacing: 0.05em;
+}
+
+li {
+  font-size: 1.2em;
 }
 
 #header {
@@ -241,7 +255,7 @@ p {
 
 #hero:before {
   content: "";
-  position: absolute;
+  position: re;
   bottom: 0;
   top: 0;
   left: 0;
@@ -296,20 +310,11 @@ section {
 
 /* Keunggulan End*/
 /*Product Start*/
-.produk .fiber-boat {
-  margin-top: 6vw;
-  background-image: url("../images/bg-1.svg");
-  background-position: top left;
-  background-repeat: no-repeat;
-  background-size: fixed;
-  width: 100%;
+.produk h5 {
+  color: #c24914 !important;
 }
 
-.produk .fiber-boat .isi {
-  margin-top: 10vh;
-}
-
-.produk .fiber-boat .btn-hubungi {
+.produk .btn-hubungi {
   background: #fc8621;
   -webkit-box-shadow: inset 0px 4px 4px rgba(255, 0, 0, 0.25);
           box-shadow: inset 0px 4px 4px rgba(255, 0, 0, 0.25);
@@ -323,6 +328,20 @@ section {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+.produk .fiber-boat {
+  margin-top: 6vw;
+  background-image: url("../images/bg-1.svg");
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: fixed;
+  width: 100%;
+  height: 601.66px;
+}
+
+.produk .fiber-boat .isi {
+  margin-top: 8vh;
 }
 
 .produk .fiber-boat img#boat-img {
@@ -343,14 +362,69 @@ section {
   padding-right: 1rem;
 }
 
+.produk .fiber-pool {
+  margin-top: 8vw;
+  background-image: url("../images/bg-2.svg");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: fixed;
+  width: 100%;
+  height: 479.71px;
+}
+
+.produk .fiber-pool .isi {
+  margin-top: 8vh;
+}
+
 .produk .fiber-pool img#fiber-pool-img {
   width: 560px;
   height: 408px;
 }
 
+.produk .fiber-pool ul {
+  padding-left: 0.3rem;
+}
+
+.produk .fiber-pool ul li {
+  margin-top: 0.5rem;
+  list-style: none;
+}
+
+.produk .fiber-pool ul li img {
+  padding-right: 1rem;
+}
+
+.produk .fiber-duck {
+  margin-top: 15vw;
+  background-image: url("../images/bg-3.svg");
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: fixed;
+  width: 100%;
+  height: 646.11px;
+  left: -75px;
+}
+
+.produk .fiber-duck .isi {
+  margin-top: 8vh;
+}
+
 .produk .fiber-duck img#fiber-duck-img {
   width: 572.04px;
   height: 475.48px;
+}
+
+.produk .fiber-duck ul {
+  padding-left: 0.3rem;
+}
+
+.produk .fiber-duck ul li {
+  margin-top: 0.5rem;
+  list-style: none;
+}
+
+.produk .fiber-duck ul li img {
+  padding-right: 1rem;
 }
 
 /*Product End*/
