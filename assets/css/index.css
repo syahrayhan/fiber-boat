@@ -56,7 +56,7 @@ h4 {
   line-height: 33px;
   /* identical to box height */
   letter-spacing: 0.05em;
-  color: #BB4613;
+  color: #bb4613;
 }
 
 h3 {
@@ -463,4 +463,53 @@ section {
 }
 
 /*Product End*/
+/*Product Card Sale Start*/
+.card-produk .btn-beli {
+  width: 150px;
+  margin: auto !important;
+  background: #fc8621;
+  -webkit-box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f5f5f5;
+}
+
+.card-produk .parent-card {
+  margin-top: 10vh;
+}
+
+.card-produk .custom-card {
+  background-image: url("../images/bg-card.svg");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  border: 2px solid #682c0e;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 2px 4px 15px 4px rgba(252, 134, 33, 0.25);
+          box-shadow: 2px 4px 15px 4px rgba(252, 134, 33, 0.25);
+  border-radius: 5px;
+}
+
+.card-produk .price {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #fc8621;
+}
+
+.card-produk .card-image {
+  padding: 20px;
+}
+
+/*Product Card Sale End*/
 /*# sourceMappingURL=index.css.map */
