@@ -302,7 +302,7 @@ li {
 /*Section General Start*/
 section {
   padding: 60px 0;
-  overflow: hidden;
+  overflow: visible;
 }
 
 /*Section General End*/
