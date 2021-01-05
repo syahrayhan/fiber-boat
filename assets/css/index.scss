@@ -51,7 +51,7 @@ h5 {
 }
 
 p {
-  font-size: 1.2em;
+  font-size: 1.25rem;
   font-weight: 400;
   color: #c24914;
   line-height: 2rem;
@@ -68,7 +68,15 @@ h3 {
 }
 
 li {
-  font-size: 1.2em;
+  font-size: 1.25rem;
+}
+
+.wrapper{
+  width: 100%;
+  padding-right: 10.980966325036603vw;
+  padding-left: 10.980966325036603vw;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 #header {
@@ -231,12 +239,12 @@ li {
     text-align: center;
   }
 
-  h4 {
+  h3 {
     margin: 0;
     color: $white;
     font-style: normal;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 22px;
     line-height: 27px;
     /* identical to box height */
 
@@ -250,7 +258,7 @@ li {
     font-family: "Poppins" sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 48px;
+    font-size: 50px;
     line-height: 80px;
     /* or 167% */
 
@@ -331,9 +339,11 @@ section {
     color: $second-color !important;
   }
   .btn-hubungi {
-    background: #fc8621;
-    box-shadow: inset 0px 4px 4px rgba(255, 0, 0, 0.25);
+    background: $second-color;
+    box-shadow: inset 0px 4px 4px rgba(34, 0, 0, 0.25);
     border-radius: 5px;
+    filter: drop-shadow(0px 4px 4px rgba(247, 167, 106, 0.25));
+    filter : drop-shadow(0px 4px 7px rgba(247, 167, 106, 0.25));
 
     font-style: normal;
     font-weight: bold;
@@ -356,7 +366,7 @@ section {
     width: 100%;
     height: 601.66px;
     .isi {
-      margin-top: 8vh;
+      margin-top: 5vh;
     }
     img#boat-img {
       width: 580px;
@@ -383,7 +393,7 @@ section {
     width: 100%;
     height: 479.71px;
     .isi {
-      margin-top: 8vh;
+      margin-top: 5vh;
     }
     img#fiber-pool-img {
       width: 560px;
@@ -412,7 +422,7 @@ section {
     height: 646.11px;
     left: -75px;
     .isi {
-      margin-top: 8vh;
+      margin-top: 5vh;
     }
     img#fiber-duck-img {
       width: 572.04px;
@@ -430,4 +440,16 @@ section {
     }
   }
 }
+
 /*Product End*/
+
+// ak peen media query screen 300px - 1199px carane pye ? nulise pye
+
+@media (min-width:300px )and( max-width: 1199px) {
+  .fiber-duck {
+    margin-top: 40em !important;
+  }
+  .fiber-pool{
+    margin-top: 20em !important;
+  }
+}
