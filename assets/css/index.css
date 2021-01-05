@@ -297,6 +297,7 @@ section {
 /* Keunggulan End*/
 /*Product Start*/
 .produk .fiber-boat {
+  margin-top: 6vw;
   background-image: url("../images/bg-1.svg");
   background-position: top left;
   background-repeat: no-repeat;
