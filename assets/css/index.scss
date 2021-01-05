@@ -321,6 +321,25 @@ section {
     .isi {
       margin-top: 10vh;
     }
+
+    .btn-hubungi {
+      background: #fc8621;
+      box-shadow: inset 0px 4px 4px rgba(255, 0, 0, 0.25);
+      border-radius: 5px;
+
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 27px;
+      /* identical to box height */
+
+      text-align: center;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+
+      color: #ffffff;
+    }
+
     img#boat-img {
       width: 580px;
       height: 202.74px;

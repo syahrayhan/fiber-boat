@@ -308,6 +308,22 @@ section {
   margin-top: 10vh;
 }
 
+.produk .fiber-boat .btn-hubungi {
+  background: #fc8621;
+  -webkit-box-shadow: inset 0px 4px 4px rgba(255, 0, 0, 0.25);
+          box-shadow: inset 0px 4px 4px rgba(255, 0, 0, 0.25);
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
 .produk .fiber-boat img#boat-img {
   width: 580px;
   height: 202.74px;
