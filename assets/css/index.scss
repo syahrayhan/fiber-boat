@@ -325,16 +325,15 @@ section {
       width: 580px;
       height: 202.74px;
     }
-    ul li:nth-child(1)::before {
-      content: "";
-      background-image: url("../images/circle-ok.svg");
-      background-size: contain;
-      display: inline-block;
-      width: 1em;
-      height: 1em;
-      position: relative;
-      top: 0.1rem;
-      margin-right: 0.2rem;
+    ul {
+      padding-left: 0.3rem;
+      li {
+        margin-top: 0.5rem;
+        list-style: none;
+        img {
+          padding-right: 1rem;
+        }
+      }
     }
   }
   .fiber-pool {

@@ -49,18 +49,15 @@ p {
 }
 
 #header {
-  -webkit-transition: ease-in 0.4s;
   transition: ease-in 0.4s;
   z-index: 997;
   padding: 15px 0;
 }
-
 #header .logo {
   margin: 0;
   padding: 0;
   line-height: 1;
 }
-
 #header .logo img {
   max-height: 40px;
 }
@@ -72,24 +69,18 @@ p {
   padding: 0;
   list-style: none;
 }
-
 .nav-menu > ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .nav-menu > ul > li {
   position: relative;
   white-space: nowrap;
   padding: 10px 0 10px 28px;
 }
-
 .nav-menu a {
   display: block;
   position: relative;
   color: #aeacac;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
   font-size: 18px;
   font-weight: 600;
@@ -111,14 +102,12 @@ p {
   border: 0;
   background: none;
   font-size: 24px;
-  -webkit-transition: all 0.4s;
   transition: all 0.4s;
   outline: none !important;
   line-height: 1;
   cursor: pointer;
   text-align: right;
 }
-
 .mobile-nav-toggle i {
   color: #ffffff;
 }
@@ -132,20 +121,17 @@ p {
   z-index: 9999;
   overflow-y: auto;
   background: #ffffff;
-  -webkit-transition: ease-in-out 0.2s;
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
   border-radius: 10px;
   padding: 10px 0;
 }
-
 .mobile-nav * {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-
 .mobile-nav a {
   display: block;
   position: relative;
@@ -173,19 +159,16 @@ p {
   background: rgba(0, 0, 0, 0.6);
   overflow: hidden;
   display: none;
-  -webkit-transition: ease-in-out 0.2s;
   transition: ease-in-out 0.2s;
 }
 
 .mobile-nav-active {
   overflow: hidden;
 }
-
 .mobile-nav-active .mobile-nav {
   opacity: 1;
   visibility: visible;
 }
-
 .mobile-nav-active .mobile-nav-toggle i {
   color: #ffffff;
 }
@@ -203,12 +186,10 @@ p {
   background-size: cover;
   position: relative;
 }
-
 #hero .container {
   position: relative;
   text-align: center;
 }
-
 #hero h4 {
   margin: 0;
   color: #ffffff;
@@ -221,7 +202,6 @@ p {
   font-family: "Poppins" sans-serif;
   color: #ffffff;
 }
-
 #hero h1 {
   margin: 0;
   font-family: "Poppins" sans-serif;
@@ -234,7 +214,6 @@ p {
   letter-spacing: 0.04em;
   color: #ffffff;
 }
-
 #hero .welcome-text {
   margin: 1.4em 0 1.4em 0;
 }
@@ -253,7 +232,6 @@ p {
     background-attachment: fixed;
   }
 }
-
 @media (max-width: 768px) {
   #hero {
     height: auto;
@@ -265,7 +243,6 @@ p {
     font-size: 24px;
   }
 }
-
 /*Hero Section End*/
 /*Section General Start*/
 section {
@@ -278,18 +255,15 @@ section {
 .keunggulan {
   margin-top: 6%;
 }
-
 .keunggulan #item-1,
 .keunggulan #item-2,
 .keunggulan #item-3 {
   width: 270px;
   margin: 20px;
 }
-
 .keunggulan .desc {
   margin-top: 1.3em;
 }
-
 .keunggulan .parent-keunggulan {
   margin-top: 2em;
 }
@@ -303,38 +277,23 @@ section {
   background-size: fixed;
   width: 100%;
 }
-
 .produk .fiber-boat .isi {
   margin-top: 10vh;
 }
-
 .produk .fiber-boat img#boat-img {
   width: 580px;
   height: 202.74px;
 }
-
-.produk .fiber-boat ul {
-  padding-left: 0.3rem;
-}
-
 .produk .fiber-boat ul li {
-  margin-top: 0.5rem;
   list-style: none;
 }
-
-.produk .fiber-boat ul li img {
-  padding-right: 1rem;
-}
-
 .produk .fiber-pool img#fiber-pool-img {
   width: 560px;
   height: 408px;
 }
-
 .produk .fiber-duck img#fiber-duck-img {
   width: 572.04px;
   height: 475.48px;
 }
 
 /*Product End*/
-/*# sourceMappingURL=index.css.map */
