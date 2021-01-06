@@ -43,7 +43,7 @@ h5 {
 }
 
 p {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 400;
   color: #c24914;
   line-height: 2rem;
@@ -69,7 +69,7 @@ h3 {
 }
 
 li {
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 .wrapper {
@@ -464,6 +464,10 @@ section {
 
 /*Product End*/
 /*Product Card Sale Start*/
+.card-produk p {
+  color: black;
+}
+
 .card-produk .btn-beli {
   width: 150px;
   margin: auto !important;
@@ -494,6 +498,8 @@ section {
   -webkit-box-shadow: 2px 4px 15px 4px rgba(252, 134, 33, 0.25);
           box-shadow: 2px 4px 15px 4px rgba(252, 134, 33, 0.25);
   border-radius: 5px;
+  width: 100% !important;
+  max-width: 400px;
 }
 
 .card-produk .price {

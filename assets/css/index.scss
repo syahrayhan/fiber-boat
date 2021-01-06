@@ -51,7 +51,7 @@ h5 {
 }
 
 p {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 400;
   color: #c24914;
   line-height: 2rem;
@@ -79,7 +79,7 @@ h3 {
 }
 
 li {
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 .wrapper {
@@ -466,6 +466,9 @@ section {
 
 /*Product Card Sale Start*/
 .card-produk {
+  p {
+    color: black;
+  }
   .btn-beli {
     width: 150px;
     margin: auto !important;
@@ -491,11 +494,15 @@ section {
     background-image: url("../images/bg-card.svg");
     background-repeat: no-repeat;
     background-position: bottom center;
+    // background-size: cover; //keduwuren rpp sih manut
     border: 2px solid #682c0e;
     box-sizing: border-box;
     box-shadow: 2px 4px 15px 4px rgba(252, 134, 33, 0.25);
     border-radius: 5px;
+    width: 100% !important;
+    max-width: 400px;
   }
+
   .price {
     font-style: italic;
     font-weight: 600;
@@ -512,5 +519,10 @@ section {
     padding: 20px;
   }
 }
+
+
+
+
+
 
 /*Product Card Sale End*/
