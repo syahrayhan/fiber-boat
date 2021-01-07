@@ -518,4 +518,45 @@ section {
 }
 
 /*Product Card Sale End*/
+/*FAQS Start */
+.faqs button.accordion-button {
+  color: #ffffff;
+  border-color: #682c0e;
+  outline: 0;
+  background: #682c0e;
+}
+
+.faqs .accordion-button:focus {
+  z-index: 3;
+  border-color: #682c0e;
+  outline: 0;
+  background: #682c0e;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.faqs .accordion-button:not(.collapsed) {
+  color: #ffffff;
+  border-color: #682c0e;
+  outline: 0;
+  background: #682c0e;
+}
+
+.faqs .accordion-button::after {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: auto;
+  content: "";
+  background-image: url("../images/panah.svg");
+  background-repeat: no-repeat;
+  background-size: 1.25rem;
+  -webkit-transition: -webkit-transform .2s ease-in-out;
+  transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+}
+
+/*FAQS END */
 /*# sourceMappingURL=index.css.map */
