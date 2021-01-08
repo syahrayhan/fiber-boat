@@ -557,3 +557,87 @@ section {
 }
 }
 /*FAQS END */
+
+/*TESTIMONI START*/
+.testimoni {
+  .card {
+    // position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #682C0E;
+    background-clip: border-box;
+    border: 0;
+    border-radius: 16px;
+    z-index: -1;
+    
+    span.variasi {
+      width: 10px;
+      height: 75px;
+
+      background: #FC8621;
+      border-radius: 10px;
+      margin-top: 10px;
+      margin-right: 10px;
+    }
+
+    .card-text {
+      color: $white;
+    }
+
+    .identitas {
+      padding-top: 15px;
+      h6 {
+        color : #F9E0AE;
+      }
+      
+      p {
+        color: white;
+      }
+    }
+
+    .kutip {
+      background-image: url("../images/right-quote-sign.svg");
+      position: absolute;
+      width: 43px;
+      height: 43px;
+      background-repeat: no-repeat;
+      align-self: center;
+      transform: translate(0px, -30px);
+    }
+  }
+}
+/*TESTIMONI END*/
+
+/*KONTAK KAMI START */
+.kontak-kami {  
+  .sosmed {
+    margin-top: 20px;
+  }
+  .info-kontak{
+    margin-top: 40px;
+    padding: 20px;
+  }
+  .custom-text {
+    margin: 0 !important;
+    line-height: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: #FC8621;
+  }
+  img {
+    margin-right: 10px;
+  }
+}
+/*KONTAK KAMI END */
+
+/*Footer love start*/
+footer {
+  height: 80px;
+  background-color: #F9E0AE;
+  p {
+  color: black;
+  }
+}
+/*Footer Love End*/

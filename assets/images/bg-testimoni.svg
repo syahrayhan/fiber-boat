@@ -1,0 +1,23 @@
+<svg width="294" height="263" viewBox="0 0 294 263" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d)">
+<rect y="22" width="290" height="233" rx="10" fill="#682C0E"/>
+</g>
+<g clip-path="url(#clip0)">
+<path d="M164.795 2.52246H151.388C150.171 2.52246 149.183 3.51032 149.183 4.72751V18.1342C149.183 19.3514 150.171 20.3392 151.388 20.3392H157.805C157.721 23.8497 156.905 26.6589 155.362 28.7713C154.145 30.4383 152.301 31.8187 149.836 32.908C148.703 33.4063 148.213 34.747 148.742 35.8672L150.33 39.2189C150.841 40.2949 152.107 40.7668 153.201 40.2949C156.12 39.0336 158.586 37.4372 160.597 35.4967C163.049 33.1285 164.729 30.456 165.637 27.4748C166.546 24.4935 167 20.4274 167 15.2676V4.72751C167 3.51037 166.012 2.52246 164.795 2.52246Z" fill="#FC8621"/>
+<path d="M128.676 40.2861C131.56 39.0292 134.012 37.4328 136.037 35.4967C138.511 33.1285 140.2 30.4648 141.108 27.5056C142.017 24.5465 142.471 20.4671 142.471 15.2676V4.72751C142.471 3.51032 141.483 2.52246 140.266 2.52246H126.859C125.642 2.52246 124.654 3.51032 124.654 4.72751V18.1342C124.654 19.3514 125.642 20.3392 126.859 20.3392H133.276C133.192 23.8497 132.376 26.6589 130.833 28.7713C129.616 30.4383 127.772 31.8187 125.307 32.908C124.174 33.4063 123.684 34.747 124.213 35.8672L125.796 39.2101C126.308 40.2861 127.583 40.7624 128.676 40.2861Z" fill="#FC8621"/>
+</g>
+<defs>
+<filter id="filter0_d" x="-4" y="22" width="298" height="241" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<clipPath id="clip0">
+<rect width="43" height="43" fill="white" transform="translate(124)"/>
+</clipPath>
+</defs>
+</svg>
