@@ -246,7 +246,7 @@ li {
 #hero {
   width: 100%;
   height: 100vh !important;
-  background: url("../images/background.jpeg") no-repeat bottom;
+  background: url("../images/background/background.jpeg") no-repeat bottom;
   background-size: cover;
   position: relative;
 
@@ -376,7 +376,7 @@ section {
   }
   .fiber-boat {
     margin-top: 6vw;
-    background-image: url("../images/bg-1.svg");
+    background-image: url("../images/background/bg-1.svg");
     background-position: top left;
     background-repeat: no-repeat;
     background-size: fixed;
@@ -402,7 +402,7 @@ section {
 
   .fiber-pool {
     margin-top: 8vw;
-    background-image: url("../images/bg-2.svg");
+    background-image: url("../images/background/bg-2.svg");
     background-position: top right;
     background-repeat: no-repeat;
     background-size: fixed;
@@ -428,7 +428,7 @@ section {
 
   .fiber-duck {
     margin-top: 15vw;
-    background-image: url("../images/bg-3.svg");
+    background-image: url("../images/background/bg-3.svg");
     background-position: top left;
     background-repeat: no-repeat;
     background-size: fixed;
@@ -511,7 +511,7 @@ section {
   }
 
   .custom-card {
-    background-image: url("../images/bg-card.svg");
+    background-image: url("../images/background/bg-card.svg");
     background-repeat: no-repeat;
     background-position: bottom center;
     // background-size: cover; //keduwuren rpp sih manut
@@ -576,7 +576,7 @@ section {
     height: 1.25rem;
     margin-left: auto;
     content: "";
-    background-image: url("../images/panah.svg");
+    background-image: url("../images/icon/panah.svg");
     background-repeat: no-repeat;
     background-size: 1.25rem;
     transition: transform 0.2s ease-in-out;
@@ -624,7 +624,7 @@ section {
     }
 
     .kutip {
-      background-image: url("../images/right-quote-sign.svg");
+      background-image: url("../images/icon/right-quote-sign.svg");
       position: absolute;
       width: 43px;
       height: 43px;
